@@ -41,67 +41,11 @@
     background-color: #f3f3f3;
   }
   /* Body */
-  .section1{
-    background-image: url(images/wallpaper4.jpg);
-    background-size: cover;
-    background-position: center;
-    min-height: 60vh;
-    
-  }
-  .section1 ul{
-    font-size: 28px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    list-style: none;
-    justify-items: center;
-    text-align: center;
-    padding: 150px 30px;
-    color: rgb(166, 24, 237);
-  }
-  @media(max-width: 768px){
-    .section1{
-        min-height: 50vh;
-    }
-    .section1 ul{
-        font-size: 24px;
-
-    }
-  }
-  .corner{
-    width: 370px;
-    height: 450px;
-  }
-  .center{
-    width: 560px;
+  .img-fluid{
     height: 350px;
+    width: 350px;
   }
-  .addvideo{
-    margin-left: 330px;
-  }
-  .video{
-    height: 350px;
-    width: 600px;
-  } 
-
-  @media(max-width: 1024px){
-    .center{
-      height: 370px;
-      width: 370px;
-    }
-    .paragraph{
-      font-size: 23px;
-      text-align: left;
-    }
-    .video{
-      width: 370px;
-    }
-    .addvideo{
-      margin-left: 2px;
-    }
-    
-  }   
-  
-
-  
+ 
   /* Footer */
   footer .col-md-3 a img{
     height: 25px;
@@ -126,4 +70,4 @@
     font-weight: 300;
     color: #bbbbbb;  
   }
-  
+ 
